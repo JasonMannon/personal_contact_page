@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>Jason Mannon</title>
+    <link href="/css/styles.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
+    <div class="container">
+    	<div class="logo">
+	      <img src="assets/img/me.png" width="200" alt="Me">
+    	</div>
+		<div class="row centered">
+			<div class="col-lg-8 col-lg-offset-2 w">
+				<h1>Jason Mannon<br/>Portland, Oregon</h1><br/>
+				<h2>Aspiring Web Developer</h3>
+			    <h3>Ruby & Rails</h3>
+			    <h3>Javascript & jQuery</h3>
+			    <h3>Test Driven Development</h3>
+			    <h3>HTML & CSS</h3>
+			    <h3>Git & SQL</h3>
+			   
+
+			</div>
+		</div>
+		<div class="row centered">
+			<div class="col-lg-8 col-lg-offset-2 w tooltip-demo">
+				<a data-toggle="tooltip" title="Twitter" href="https://twitter.com/JasonMannonpdx"><i class="fa fa-twitter"></i></a>
+				<a data-toggle="tooltip" title="Git" href="http://www.github.com/jasonmannon"><i class="fa fa-briefcase"></i></a>
+				<a data-toggle="tooltip" title="Email Me!" href="mailto:jmannonpdx@gmail.com"><i class="fa fa-envelope"></i></a>
+			</div>
+		</div>
+    </div>
+    
+    <div class="container">
+    	<div class="row w centered">
+    		<br>		
+    		<div class="col-lg-6 col-lg-offset-3">
+    			<p></p>
+    		</div>
+    	</div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script>
+    $('.tooltip-demo').tooltip({
+      selector: "[data-toggle=tooltip]",
+      container: "body"
+    })
+	</script>
+
+    <script type="text/javascript" src="assets/js/jquery.backstretch.min.js"></script>
+    <script>
+        $.backstretch("assets/img/bg.jpg", {speed: 500});
+    </script>
+   
+  </body>
+</html>
